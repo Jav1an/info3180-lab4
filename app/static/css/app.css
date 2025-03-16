@@ -1,20 +1,33 @@
 body {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .form-login {
-    max-width: 330px;
-    padding: 15px;
+  max-width: 330px;
+  padding: 15px;
 }
 
 .form-login input[type="text"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .form-login input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 20px 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
